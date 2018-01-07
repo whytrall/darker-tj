@@ -1,0 +1,36 @@
+.page--profile .profile__header, .page--profile .profile__settings__section,
+.ui_modal_window__footer, .profile_comment_favorite, .profile_comment_self {
+  border-color: $wrapper-divider-color;
+}
+
+.ui_navigation__item:after, .ui_navigation__item:before {
+  background: $wrapper-divider-color;
+}
+
+.ui_tabs {
+  border: 0;
+}
+
+.profile__cover__crop:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
+    $body-background 100%);
+  width: 100%;
+  height: 140px;
+}
+
+.popup__container__window--styled .popup__container__window__tpl {
+  background: $wrapper-background;
+}
+
+.popup .popup__content .line {
+  background: $wrapper-divider-color;
+}
+
+.page--profile .paid_account__number {
+  color: $profile-days-count-color;
+}

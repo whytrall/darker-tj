@@ -1,0 +1,89 @@
+.l-white_container, .island, .entry_wrapper, .comments_carousel, .small-editor,
+.feed__load_more, .page--profile .profile__user, .ui_navigation,
+.ui-page-header, .page--profile .profile__settings, .ui_modal_window,
+.news_widget, .page--profile .profile__comments, .entry_flash,
+.page--tweets .tweet, .comments__updates, .main_footer,
+.page--profile .feed--for_notifications {
+  background: $wrapper-background;
+}
+
+.best_entries--entry, .best_entries--entry .best_entries__title,
+.best_entries--entry:before, .best_entries--entry:after,
+.best_entries--entry .best_entries__more span {
+  background: $wrapper-background;
+}
+
+.best_entries--entry {
+  border-color: $wrapper-background;
+  border-top: 1px solid $wrapper-divider-color;
+  color: $text-color;
+}
+
+.entry_footer--short {
+  border-color: $wrapper-divider-color;
+}
+
+.comments_carousel:after {
+  display: none
+}
+
+.comments_carousel__item {
+  color: $text-color;
+}
+
+.island__hashtags__item {
+  background: $tag-background!important;
+  color: $tag-color!important;
+}
+
+.ui-feed-header {
+  border-color: $wrapper-divider-color;
+}
+
+.best_entries--partner {
+  background: $wrapper-background;
+  color: $text-color;
+}
+
+.best_entries--footer {
+  border-top: 1px solid $wrapper-divider-color;
+}
+
+.b-link-widget {
+  max-width: 100%;
+  border: 1px solid $big-link-border!important;
+  background: none;
+  &:hover {
+    background: $big-link-hover-background;
+  }
+}
+
+.entry-quote--centered, .entry-quote--small, .b-image-background {
+  background: $quote-background;
+}
+
+.section_caption--blog {
+  border-color: $post-section-border;
+  color: $post-section-color;
+}
+
+.comments_counter--has_new .comments_counter__count__ico,
+.comments_counter--has_new .comments_counter__count__value_new {
+  color: $post-new-comments-color;
+}
+
+.comments__updates {
+  color: $text-color;
+}
+
+.comments_counter__count__ico, .comments_counter__count__unit,
+.comments_counter__count__value, .comments_counter__count__value_new,
+.favorite_marker .icon, .favorite_marker__count, .vote .vote__button,
+.vote .vote__button .icon, .entry_header__info__item, .views_counter .icon,
+.views_counter, .favorite_marker__title, .favorite_marker__title-active,
+.entry_header--full .entry_header__info__item, .main_footer__typo,
+.main_footer__link--1, .main_footer__label, .main_footer__link--2,
+.page--profile .profile__settings__section__title {
+  color: $label-color;
+  fill: $label-color;
+}

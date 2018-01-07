@@ -1,0 +1,59 @@
+.comments__item__text a, .entry_content .b-article a:not(.b-link-widget),
+.entry_inline_item__title,.google_search_wrapper .gsc-cursor-page,
+.google_search_wrapper a.gs-title, .island__info a, .island__list__link,
+.live__item--comment .live__item__title span, .page--error .error__message a,
+.page--tweets .tweet__content p a, .t-link-classic, .ui-page-header a,
+.profile_comment_favorite__text a, .profile_comment_favorite__title span,
+.profile_comment_self__text a, .profile_comment_self__title span, .sitemap a {
+  color: $link-color!important;
+  border-bottom-color: $link-border!important;
+  &:hover {
+    color: $link-color-hover!important;
+  }
+}
+
+.t-link-inline {
+  color: $link-color!important;
+  &:hover {
+    color: $link-color-hover!important;
+  }
+}
+
+.best_entries--entry .best_entries__more:hover, .comments_carousel__item:hover,
+.entry_header--full .entry_header__info a:hover, .live__item--comment
+.live__item__date:hover, .profile_comment_favorite__user:hover, .t-link:hover,
+.vote--comment .vote__users__item:hover,
+.best_entries__grid__cell:hover .best_entries__grid__cell__title,
+.ui_tabs__tab:hover, .island__list__text--with_hover:hover, .feed__load_more:hover,
+.entry_header__author:hover, .live__item--comment .live__item__content:hover .live__item__text,
+.live__item--comment .live__item__user:hover .live__item__user__name,
+.t-link-hovered {
+  color: $link-color!important;
+}
+
+.google_search_wrapper .gsc-search-button input[type=button], .ui_button--1,
+.comments__reply_form__reply, .google_search_wrapper .ui_button--10,
+.ui_button--11, .ui_button--12, .ui_button--13, .ui_button--2, .ui_button--3,
+.ui_button--5, .ui_button--6, .ui_button--7, .ui_button--8, .ui_button--9 {
+  background: $button-background!important;
+  color: $button-color!important;
+  &:hover {
+    background: $button-background-hover!important;
+  }
+}
+
+.island__list__item:after {
+  display: none;
+}
+
+.small-editor__placeholder-photo, .entry_header__author__image {
+  border-radius: 2px;
+}
+
+.ui_tabs__tab--active:after, .ui_tabs__tab--active:after {
+  background-color: $tab-border!important;
+}
+
+.island__header__title, .entry_header__date, .entry_header__author {
+  color: $label-color!important;
+}

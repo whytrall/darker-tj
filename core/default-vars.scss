@@ -1,0 +1,54 @@
+// Если не знаете, что делает та или иная переменная - закомментируйте ее
+// и посмотрите на ошибку.
+
+$main-color: rgb(49, 49, 49); // цвет, из которого расчитывается практически все. будет фоном страницы
+$primary-color: rgb(232, 164, 39); // цвет кнопок и ссылкок
+
+$disable-live-feed: false; // убрать фид справа
+$show-alaska-button: false; // добавить ссылку на аляску в шапку
+
+$wrapper-background: lighten($main-color, 7%); // фон части страницы, где все находится
+$wrapper-divider-color: lighten($wrapper-background, 10%); // граница для всего, что находится на фоне выше
+
+$body-background: $main-color;
+$text-color: lighten($wrapper-background, 50%);
+$label-color: rgba($text-color, .6);
+$link-color: $primary-color;
+$link-color-hover: darken($link-color, 20%);
+$link-border: rgba($link-color, .4); // transparent, чтобы убрать подчеркивание
+$big-link-border: lighten($wrapper-background, 10%); // большая ссылка в статье
+$big-link-hover-background: lighten($wrapper-background, 5%);
+
+$tab-border: $primary-color; // нижняя полоска у табов навигации
+
+$header-background: darken($wrapper-background, 4%);
+$header-border: darken($header-background, 50%);
+$header-links-color-hover: lighten($header-background, 70%);
+$header-links-color: rgba($header-links-color-hover, .7);
+$header-logo-line-fill: #fff; // цвет части логотипа TJ, которая не желтая и не зеленая. На VC и DTF - цвет лого
+$header-primary-color: $tab-border; // цвет полоски над активным элементом в шапке
+
+$comments-vote-background: lighten($wrapper-background, 5%);
+$comments-attachments-background: $body-background; // фон кнопок для загрузки аттачей в комментах
+$comments-area-border: lighten($wrapper-background, 30%);
+$comment-author-background: lighten($wrapper-background, 10%);
+$comment-new-or-pinned-background: $body-background;
+
+$button-background: darken($primary-color, 8%);
+$button-background-hover: lighten($button-background, 10%);
+$button-color: white;
+
+$tag-background: lighten($wrapper-background, 10%); // тэги в сайдбаре
+$tag-color: lighten($tag-background, 50%);
+
+$quote-background: lighten($wrapper-background, 5%); // цитаты и фон у некоторых фото
+
+$notifications-background: lighten($main-color, 8%);
+$notifications-unread-background: lighten($main-color, 20%);
+$notifications-border: lighten($notifications-unread-background, 8%);
+
+$post-section-border: darken($text-color, 20%); // название раздела в начале статьи
+$post-section-color: $text-color;
+$post-new-comments-color: $primary-color;
+
+$profile-days-count-color: darken($wrapper-background, 20%);

@@ -1,0 +1,12 @@
+.ui-limited-input input, .ui-limited-input textarea, .small-editor__title {
+  background: $wrapper-background!important;
+}
+
+.editor__header-menu {
+  background: $wrapper-background;
+  border-color: $wrapper-divider-color;
+}
+
+.small-editor__attach {
+  background: $comments-attachments-background;
+}

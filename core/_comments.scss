@@ -1,0 +1,37 @@
+.comments {
+  border-top: 1px solid $wrapper-divider-color;
+
+  .comments__header {
+    background: $wrapper-background;
+    border-bottom: 1px solid $wrapper-divider-color;
+  }
+
+  .comments__body {
+    padding-top: 0;
+  }
+
+  .comments__reply_form__textarea {
+    background: $wrapper-background;
+    color: $text-color;
+  }
+
+  .comments__reply_form__upload_images, .comments__reply_form__video {
+    background: $comments-attachments-background;
+  }
+
+  .comments__reply_form__textarea-holder {
+    border-color: $comments-area-border;
+  }
+
+  .comments__item__self--author .comments__item__user__name span {
+    background: $comment-author-background!important;
+  }
+
+  .comments__item__space--highlighted, .comments__item__space--new, .comments__item__space--pinned {
+    background: $comment-new-or-pinned-background;
+  }
+
+  .vote__value {
+    background: $comments-vote-background!important;
+  }
+}

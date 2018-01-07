@@ -1,0 +1,11 @@
+.head-notifies__panel {
+  background: $notifications-background;
+}
+
+.notification--unread {
+  background: $notifications-unread-background!important;
+}
+
+.notification:not(:last-of-type), .head-notifies__header, .head-notifies__footer {
+  border-color: $notifications-border;
+}

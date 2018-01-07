@@ -1,0 +1,32 @@
+@if $disable-live-feed { // на самом деле во всем этом нужны только строчки
+  body.with--live {      // 1 - 20.
+    padding-right: 0;
+
+    .live-wrapper {
+      display: none;
+    }
+
+    .comments__updates {
+      right: 0;
+    }
+
+    .main_menu {
+      padding-right: 0;
+    }
+    .main_footer--bottom {
+      width: 100%;
+    }
+  }
+}
+
+.live {
+  background: $wrapper-background;
+}
+
+.live:not(:empty):after {
+  display: none;
+}
+
+.live__item--comment:before {
+  background-color: $wrapper-divider-color;
+}

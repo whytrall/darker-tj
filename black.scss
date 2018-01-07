@@ -1,0 +1,6 @@
+@import "core/default-vars";
+
+$main-color: rgb(49, 49, 49); // цвет, из которого расчитывается практически все. будет фоном страницы
+$primary-color: rgb(232, 164, 39); // цвет кнопок и ссылкок
+
+@import "core/core";
